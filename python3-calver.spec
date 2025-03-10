@@ -2,7 +2,7 @@
 Summary:	Setuptools extension for CalVer package versions
 Name:		python3-%{module}
 Version:	2022.6.26
-Release:	1
+Release:	2
 License:	Apache
 Group:		Libraries/Python
 Source0:	https://pypi.debian.net/calver/%{module}-%{version}.tar.gz
