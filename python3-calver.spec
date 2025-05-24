@@ -1,5 +1,6 @@
 %define		module	calver
 Summary:	Setuptools extension for CalVer package versions
+Summary(pl.UTF-8):	Rozszerzenie setuptools do wersji pakietów CalVer
 Name:		python3-%{module}
 Version:	2022.6.26
 Release:	3
@@ -19,6 +20,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 The calver package is a setuptools extension for automatically
 defining your Python package version as a calendar version.
+
+%description -l pl.UTF-8
+Pakiet calver to rozszerzenie setuptools do automatycznego
+definiowania wersji pakietów Pythona jako wersji kalendarzowych.
 
 %prep
 %setup -q -n %{module}-%{version}
