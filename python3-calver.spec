@@ -4,16 +4,16 @@ Summary(pl.UTF-8):	Rozszerzenie setuptools do wersji pakietów CalVer
 Name:		python3-%{module}
 Version:	2022.6.26
 Release:	3
-License:	Apache
+License:	Apache v2.0
 Group:		Libraries/Python
 Source0:	https://pypi.debian.net/calver/%{module}-%{version}.tar.gz
 # Source0-md5:	e1fd924b9bf953c0b28c49bdfe117d7a
 URL:		https://pypi.org/project/calver/
-BuildRequires:	python3-modules >= 1:3.2
+BuildRequires:	python3-modules >= 1:3.5
 BuildRequires:	python3-setuptools
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.714
-Requires:	python3-modules >= 1:3.2
+Requires:	python3-modules >= 1:3.5
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
